@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+/* :root {
+    --bg-Soft-violet: rgb(156, 118, 218);
+    --bg-Soft-blue: rgb(101, 101, 231);
+    --bg-gradient: (rgb(156, 118, 218), rgb(101, 101, 231));
+} */
+
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #8a50e6;
+    /* background-color: linear-gradient(180deg, rgba(175, 103, 233, 1), rgba(101, 101, 231, 1)); */
+    position: relative;
+}
+
+main {
+    position: absolute;
+    max-width: 800px;
+    width: 90%;
+    background-color: white;
+    left: 50%;
+    transform: translate(-50%, 30%);
+    border-radius: 15px;
+    box-shadow: 13px 54px 126px -22px rgba(75, 45, 45, 0.62);
+}
+
+.illustration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -7em;
+    margin-left: -1em;
+}
+
+.illustration #shadow {
+    margin-top: -5.5em;
+    margin-left: 1em;
+}
+
+.faq-section {
+    display: flex;
+    flex-direction: column;
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+.faq-section h1 {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.faq-content {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin: auto;
+    border-top: 0.1px solid rgba(114, 94, 94, 0.392);
+}
+
+.faq-content:nth-child(2) {
+    border-top: none;
+}
+
+.faq-content:nth-child(6) {
+    border-bottom: 0.1px solid rgba(114, 94, 94, 0.392);
+    margin-bottom: 2em;
+}
+
+.faq-content .faq-btn {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    z-index: 4;
+}
+
+.faq-btn h2 {
+    width: 100%;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.faq-btn img {
+    width: 4%;
+    transition: 0.5s ease;
+}
+
+.faq-ans {
+    width: 100%;
+    font-size: 0.9rem;
+    color: rgb(120, 120, 135);
+    font-weight: 500;
+    text-align: left;
+    transition: 1s ease;
+    display: none;
+    margin: 0.5em;
+    margin-left: 0;
+}
